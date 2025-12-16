@@ -1,0 +1,144 @@
+  @import url("https://fonts.googleapis.com/css?family=Audiowide");
+  *{
+    padding: 0px;
+    margin:0px;
+  }
+.header-wrapper {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #4b3f8c;
+  color: #fff3d6;
+  padding: 10px;
+  border-radius: 30px 30px 30px 30px;
+}
+.title-bar img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.title-bar h1 {
+  margin: 0;
+  font-family: "Audiowide", sans-serif;
+}
+.offer-bar {
+  background-color: pink;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 30px  30px 30px  30px;
+}
+.about p{
+  padding:10px;
+  margin:10px;
+  font-size:20px ;
+  font-weight: 400;
+  color:black;
+  background-color: rgb(239, 113, 138);
+}
+span{
+    font-weight: bolder ;
+    color:white;
+
+          }
+.hidden {
+  display: none;
+}
+            body {
+            background-image: url('https://img.freepik.com/free-photo/abstract-blur-shopping-mall_1203-8772.jpg?semt=ais_hybrid&w=740&q=80');
+            background-size: cover;
+            background-position: center;
+            }
+          h1{
+           font-family: "Audiowide", sans-serif;
+           background-color: darkslateblue ;
+           color:antiquewhite;
+           text-align: center;
+           width:100%;
+          }
+            .container{
+            display:flex;
+            margin-top: 20px;
+            padding-left: 20px;
+            }
+          .container div img{
+            display:flex;
+            width:175px;
+            height:120px;
+            padding:2px;
+            margin: 6px;
+            gap:5px;
+          }
+          .container div img:hover{
+            width:200px;
+            height: 170px;
+            transition-duration: 1s;
+            opacity: 10px;
+            transition-property: ease;
+          }
+          .btn:hover{
+           background-color: darkgoldenrod;
+            transition-delay: 1s;
+            transition-property: ease;
+            color:black;
+          }
+          button{
+            background-color: cadetblue;
+            color:aliceblue;
+            font-size: medium;
+            padding:2px;
+            margin: 6px;
+          }
+          .Rs{
+            text-align: center;
+            padding:2px;
+            margin: 6px;
+            gap:5px;
+            background-color: darkseagreen;
+            color:brown;
+          }
+          h2{
+            color: darkmagenta;
+          }
+          .nav-link{
+            list-style: none;
+            display: flex;
+            background-color: darkgrey;
+            gap: 30px;
+            justify-content: flex-end; 
+            padding: 0;
+            margin: 0;
+          }
+          .nav-link li a{
+            text-decoration: none;
+            color:brown;
+            font-size: 20px;
+            font-weight:bold;
+            width:100%;
+          }
+          .nav ul li{
+            background-color: #4b3f8c;
+            float:left;
+            border-right: 1px solid greenyellow;
+            text-transform: uppercase;
+            width: 100%;
+            
+          }
+          .nav ul li:hover{
+            color:coral;
+            transition:all 0.2s linear;
+        
+          }
+          nav{
+            text-align:left;
+          }
+          
+          nav ul{
+            transform: skew(-25);
+          }
